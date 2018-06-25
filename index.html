@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gif Tastic Hall of Fame</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="jumbotron">
+            <h1>
+                GIF TASTIC
+            </h1>
+        </div>
+        <div class="section">
+            <div class="header">
+                <h2>
+                    Hall of Fame
+                </h2>
+
+            </div>
+            <div id="fame-buttons">
+
+            </div>
+
+            <form id="fame-form">
+                <label id="add" for="fame-input">Please enter your favortie Star</label>
+                <input type="text" class="form-control" id="fame-input">
+            </form>
+            <button onclick="submitButtonClicked()" type="button" id="add-fame" class="btn btn-success">Submit</button>
+        </div>
+        <div class="section">
+            <h4 style="padding-left: 20px; color:burlywood">N.B: To access the GIFs, please click inside the photos</h4>
+            <div id="fames">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>

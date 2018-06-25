@@ -1,0 +1,90 @@
+body{
+    background-color: cornflowerblue;              
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10 px;
+    padding-right: 10 px;
+    width:90%;
+}
+.section{
+    margin-bottom: 20px;
+    box-shadow: 5px 10px #888888;
+    background-color: teal;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.jumbotron{
+    background-color: teal !important;
+    color : whitesmoke !important;
+    font-family: Lobster;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+}
+.header{
+    padding: 20px;
+    font-family: Lobster;
+    color: burlywood;
+    text-align: center;
+}
+#fame-form{
+    margin: 20px;
+}
+#fame-input{
+    font-family: cursive;
+    color: teal !important;
+    font-weight: bolder;
+}
+#fames{
+    display: table-cell !important;
+    vertical-align: middle !important;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.movImage{
+    display: table-cell !important;
+    vertical-align: middle !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.ratings {
+    padding-bottom: 15px;
+    color: burlywood;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 45px;
+}
+.btn-primary, #add-fame {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: burlywood;
+    color:teal;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.form-control {
+    width: 30%;
+}
+#add {
+    font-size: 20px;
+    color: burlywood;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: chocolate;
+    }
+}
